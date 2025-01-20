@@ -5,6 +5,15 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -130,4 +139,147 @@
 }
 .banner_section .img{
     margin-left: 50px;
+}
+
+
+                /*banner section stop*/
+
+                /*Standard Curriculum section start*/
+
+.curriculum_section .cart_item{
+    display: flex;
+    justify-content: space-between;
+    margin:80px 0;
+    
+}
+.main_section .curriculum_section h2{
+    color:#000000;
+    font-weight: bold;
+    font-size: 2.875rem;
+    text-align: center;
+}
+.main_section {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_section .curriculum_section .cart_item .cart1{
+    background:linear-gradient(#DEF5FF, #FFFFFF,#FFFFFF, #FFFFFF,#FFFFFF );
+    border: 0.94px solid #DEF5FF;
+    border-radius: 18px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    text-align: center;
+}
+.main_section .curriculum_section .cart_item .cart1 h3{
+    font-weight: bold;
+    font-size: 1.53rem;
+    line-height: 1.92rem;
+    color:#202020;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.main_section .curriculum_section .cart_item .cart1 p{
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    color: #808080;
+    margin-bottom: 32px;
+    
+}
+.main_section .curriculum_section .cart_item .cart1 button{
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    color: #64C8FF;
+    border: none;
+    background:none;
+    transition: 0.5s;
+}
+.main_section .curriculum_section .cart_item .cart1 button:hover{
+    
+    background-color: #64C8FF;
+    color:white;
+    padding:8px 20px;
+    border-radius: 8px;
+}
+.main_section .curriculum_section .cart_item .cart2{
+    background:linear-gradient(#FFF4DC, #FFFFFF,#FFFFFF, #FFFFFF,#FFFFFF );
+    border: 0.94px solid #FFF4DC;
+    border-radius: 18px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    text-align: center;
+    margin:0 28px;
+}
+.main_section .curriculum_section .cart_item .cart2 h3{
+    font-weight: bold;
+    font-size: 1.53rem;
+    line-height: 1.92rem;
+    color:#202020;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.main_section .curriculum_section .cart_item .cart2 p{
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    color: #808080;
+    margin-bottom: 32px;
+}
+.main_section .curriculum_section .cart_item .cart2 button{
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    color: #F0AA00;
+    border: none;
+    background:none;
+    transition: 0.5s;
+}
+.main_section .curriculum_section .cart_item .cart2 button:hover{
+    
+    background-color: #F0AA00;
+    color:white;
+    padding:8px 20px;
+    border-radius: 8px;
+}
+.main_section .curriculum_section .cart_item .cart3{
+    background:linear-gradient(#F2E8FF, #FFFFFF,#FFFFFF, #FFFFFF,#FFFFFF );
+    border: 0.94px solid #F2E8FF;
+    border-radius: 18px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    text-align: center;
+    
+}
+.main_section .curriculum_section .cart_item .cart3 h3{
+    font-weight: bold;
+    font-size: 1.53rem;
+    line-height: 1.92rem;
+    color:#202020;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.main_section .curriculum_section .cart_item .cart3 p{
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    color: #808080;
+    margin-bottom: 32px;
+}
+.main_section .curriculum_section .cart_item .cart3 button{
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    color: #8700FF;
+    border: none;
+    background:none;
+    transition: 0.5s;
+}
+.main_section .curriculum_section .cart_item .cart3 button:hover{
+    
+    background-color:#8700FF;
+    color:white;
+    padding:8px 20px;
+    border-radius: 8px;
 }
