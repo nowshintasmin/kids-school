@@ -1,0 +1,133 @@
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.nav_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav_section .logo{
+    display: flex;
+    align-items: center;
+}
+.nav_section .logo h2{
+    font-weight: bold;
+    font-size: 2rem;
+    color:black;
+    line-height: 2rem;
+    margin-left: 11px;
+}
+.nav_section .menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav_section .menu ul li{
+    list-style-type: none;
+}
+.nav_section .menu ul li a{
+    text-decoration: none;
+    margin:0 16px;
+
+}
+.nav_section .menu ul .item1 a{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.nav_section .menu ul .item2 a{
+    color: skyblue;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.nav_section .menu ul .item3 a{
+    color: #05D4DF;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.nav_section .menu ul .item4 a{
+    color: #5D58EF;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.nav_section .btn button{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-radius: 12px;
+    border:none;
+    padding: 10px 60px;
+    transition: 0.5s;
+}
+.nav_section .btn button:hover{
+    background-color: #FFFFFF;
+    border:1px solid orange;
+    color:orange;
+}
+
+                /*nav section stop*/
+
+                /*banner section start*/
+
+.banner_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.banner_section .text h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 3.81rem;
+    color:black;
+}
+.banner_section .text h1 .spn1{
+    color:orange;
+}
+.banner_section .text h1 .spn2{
+    color:skyblue;
+}
+.banner_section .text p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: auto;
+    color:black;
+    margin: 24px 0;
+}
+.banner_section .text button{
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.875rem;
+    background-color: black;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+    transition: 0.5s;
+}
+.banner_section .text button:hover{
+    background-color:#FFFFFF;
+    color: black;
+    border: 1px solid black;
+}
+.banner_section .img{
+    margin-left: 50px;
+}
